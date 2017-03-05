@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="midterm-css/reset.css" />
+    <link rel="stylesheet" href="midterm-css/leaflet.css" />
+    <link rel="stylesheet" href="midterm-css/style.css" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!--https://github.com/mapshakers/leaflet-icon-pulse | with modification-->
+    <link rel="stylesheet" href="midterm-css/L.Icon.Pulse.css" />
+
+  </head>
+  <body>
+    <!-- Coverpage -Page #0-->
+    <div id="cover">
+    <h3 class="title">AmazonGo & Its Surroundings</h3>
+
+    </div>
+    <!--Slide 1 -->
+    <div id="slide-footer" >
+      <h3 class="title-in-slide" style="display: none;">AmazonGo & Its Surroundings</h3>
+
+    </div>
+    <div id="slide1">
+      <div class="slide1-a">
+        <div class="slide1-a-header" style="display: none;">
+          <div type="button" onClick="backToCover()" class="back-to-cover">Cover Page</div>
+          <div type="button" onClick="reCenter()" class="recenter">Re-center</div>
+          <button class="arrowLeft">
+          <svg id="arrow" width=15px height=20px viewBox="4 1 15 15">
+          <polyline fill="none" stroke="#e3f2ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="15,0 8,7.5 15,15">
+          </svg>
+          </button>
+           <button class="arrowRight" >
+          <svg id="arrow" width=15px height=20px  viewBox="-1 1 15 15">
+          <polyline fill="none" stroke="#e3f2ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="1,0 8,7.5 1,15">
+          </svg>
+          </button>
+      </div>
+        <div class="slide1-a-content" style="display: none;">
+        <div class="content-part1">
+        <h3 class="slide-title">A Little about Me...</h3>
+        <span class="slide-content">The pulsating circle is me, Amazon Go, a check-out free
+        grocery store located in 2131 7th Ave in downtown Seattle.
+        I am the very first Amazon child in the grocery sector and right now only
+        open to the Amazon employees in the Beta program. It’s been a great
+        year and I want to show you some fun things around me. First, my siblings - Amazon offices,
+        not the lockers!</span>
+        </div>
+        </div>
+      </div>
+
+      <div class="slide1-b-info" style="display: none;">
+      <div class="placeholder">
+          <span class="info-title">Mini Bio of A Sibling</span>
+          <br/>
+          <span id="small-guide">Hover over a circle...</span>
+          <br/>
+          <table id="mini-bio">
+            <tr>
+              <td>Name</td>
+              <td><span id="sibling-name">always a cool name</span></td>
+            </tr>
+          <tr>
+            <td>Birth Year</td>
+            <td><span id="sibling-b-year">I am not the youngest</span></td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td><span id="sib-address">not far from me</span></td>
+          </tr>
+          <tr>
+            <td>Appraised Value</td>
+            <td><span id="appr-value">for tax purpose...</span></td>
+          </tr>
+          <tr>
+              <td>Net SQFT</td>
+              <td><span id="sib-size">hmmm.....</span></td>
+          </tr>
+          </table>
+        </div>
+      </div>
+      <div class="slide1-legend" style="display: none;">
+        <table class="slide1-legend-content">
+          <tr>
+            <td><div class="slide1-legendc Cascade"></div></td>
+            <td class="slide1-legend-text">Cascade</td>
+            <td><div class="slide1-legendc CH"></div></td>
+            <td class="slide1-legend-text">Capitol Hill</td>
+          </tr>
+          <tr>
+          <tr>
+            <td><div class="slide1-legendc Downtown"></div></td>
+            <td class="slide1-legend-text">Downtown</td>
+            <td><div class="slide1-legendc CA"></div></td>
+            <td class="slide1-legend-text">Central Area</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Map -->
+  <div id="map" class="map"></div>
+    <!-- Javascript Imports -->
+    <script src="midterm-js/jquery-2.2.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="midterm-js/underscore.js"></script>
+    <script src="midterm-js/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!--https://github.com/mapshakers/leaflet-icon-pulse | with modification-->
+    <script src="midterm-js/L.Icon.Pulse.js"></script>
+    <script src="midterm-js/mid-setup.js"></script>
+    <script src="midterm-js/app.js"></script>
+    <script src="midterm-js/slideModel.js"></script>
+  </body>
+</html>
