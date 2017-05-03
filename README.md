@@ -1,3 +1,3 @@
 # midterm
 
-Click the Title on the cover page to get into the slides....
+https://laylasun.github.io/midterm/
